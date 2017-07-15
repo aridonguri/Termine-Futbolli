@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D07191991F1A95330018F12B /* top1.png in Resources */ = {isa = PBXBuildFile; fileRef = D07191981F1A95330018F12B /* top1.png */; };
+		D071919C1F1A976C0018F12B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D071919B1F1A976C0018F12B /* MapKit.framework */; };
+		D07191A21F1A9BE40018F12B /* MapiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07191A11F1A9BE40018F12B /* MapiViewController.m */; };
+		D07191A51F1AAB7F0018F12B /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = D07191A41F1AAB7F0018F12B /* MapPin.m */; };
+		D07191A71F1ABA910018F12B /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07191A61F1ABA910018F12B /* SecondTableViewController.m */; };
 		D09E70601F122D6A00B9EA5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E705F1F122D6A00B9EA5E /* main.m */; };
 		D09E70631F122D6A00B9EA5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70621F122D6A00B9EA5E /* AppDelegate.m */; };
 		D09E70661F122D6A00B9EA5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70651F122D6A00B9EA5E /* ViewController.m */; };
@@ -15,6 +20,9 @@
 		D09E706E1F122D6A00B9EA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09E706C1F122D6A00B9EA5E /* LaunchScreen.storyboard */; };
 		D09E70791F122D6A00B9EA5E /* AppiOS1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70781F122D6A00B9EA5E /* AppiOS1_1Tests.m */; };
 		D09E70841F122D6A00B9EA5E /* AppiOS1_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70831F122D6A00B9EA5E /* AppiOS1_1UITests.m */; };
+		D09E70931F122EB400B9EA5E /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70921F122EB400B9EA5E /* RootTableViewController.m */; };
+		D09E70961F122ED300B9EA5E /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70951F122ED300B9EA5E /* SecondTableViewController.m */; };
+		D09E70981F12B38300B9EA5E /* topi.png in Resources */ = {isa = PBXBuildFile; fileRef = D09E70971F12B38300B9EA5E /* topi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D07191981F1A95330018F12B /* top1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top1.png; path = ../../top1.png; sourceTree = "<group>"; };
+		D071919B1F1A976C0018F12B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D07191A01F1A9BE40018F12B /* MapiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapiViewController.h; sourceTree = "<group>"; };
+		D07191A11F1A9BE40018F12B /* MapiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapiViewController.m; sourceTree = "<group>"; };
+		D07191A31F1AAB7F0018F12B /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		D07191A41F1AAB7F0018F12B /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		D07191A61F1ABA910018F12B /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondTableViewController.m; path = ../../../Documents/SecondTableViewController.m; sourceTree = "<group>"; };
 		D09E705B1F122D6A00B9EA5E /* AppiOS1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiOS1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09E705F1F122D6A00B9EA5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D09E70611F122D6A00B9EA5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,11 @@
 		D09E707F1F122D6A00B9EA5E /* AppiOS1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppiOS1.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09E70831F122D6A00B9EA5E /* AppiOS1_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppiOS1_1UITests.m; sourceTree = "<group>"; };
 		D09E70851F122D6A00B9EA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09E70911F122EB400B9EA5E /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		D09E70921F122EB400B9EA5E /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		D09E70941F122ED300B9EA5E /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		D09E70951F122ED300B9EA5E /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		D09E70971F12B38300B9EA5E /* topi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topi.png; path = ../../topi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D071919C1F1A976C0018F12B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D071919A1F1A976C0018F12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D071919B1F1A976C0018F12B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D09E70521F122D6A00B9EA5E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,7 @@
 				D09E70771F122D6A00B9EA5E /* AppiOS1.1Tests */,
 				D09E70821F122D6A00B9EA5E /* AppiOS1.1UITests */,
 				D09E705C1F122D6A00B9EA5E /* Products */,
+				D071919A1F1A976C0018F12B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +136,19 @@
 				D09E70641F122D6A00B9EA5E /* ViewController.h */,
 				D09E70651F122D6A00B9EA5E /* ViewController.m */,
 				D09E70671F122D6A00B9EA5E /* Main.storyboard */,
+				D09E70911F122EB400B9EA5E /* RootTableViewController.h */,
+				D09E70921F122EB400B9EA5E /* RootTableViewController.m */,
+				D09E70941F122ED300B9EA5E /* SecondTableViewController.h */,
+				D09E70951F122ED300B9EA5E /* SecondTableViewController.m */,
+				D07191A61F1ABA910018F12B /* SecondTableViewController.m */,
 				D09E706A1F122D6A00B9EA5E /* Assets.xcassets */,
 				D09E706C1F122D6A00B9EA5E /* LaunchScreen.storyboard */,
 				D09E706F1F122D6A00B9EA5E /* Info.plist */,
 				D09E705E1F122D6A00B9EA5E /* Supporting Files */,
+				D07191A01F1A9BE40018F12B /* MapiViewController.h */,
+				D07191A11F1A9BE40018F12B /* MapiViewController.m */,
+				D07191A31F1AAB7F0018F12B /* MapPin.h */,
+				D07191A41F1AAB7F0018F12B /* MapPin.m */,
 			);
 			path = AppiOS1.1;
 			sourceTree = "<group>";
@@ -117,6 +156,8 @@
 		D09E705E1F122D6A00B9EA5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D07191981F1A95330018F12B /* top1.png */,
+				D09E70971F12B38300B9EA5E /* topi.png */,
 				D09E705F1F122D6A00B9EA5E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -208,6 +249,11 @@
 					D09E705A1F122D6A00B9EA5E = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					D09E70731F122D6A00B9EA5E = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -247,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09E706E1F122D6A00B9EA5E /* LaunchScreen.storyboard in Resources */,
+				D07191991F1A95330018F12B /* top1.png in Resources */,
 				D09E706B1F122D6A00B9EA5E /* Assets.xcassets in Resources */,
 				D09E70691F122D6A00B9EA5E /* Main.storyboard in Resources */,
+				D09E70981F12B38300B9EA5E /* topi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09E70661F122D6A00B9EA5E /* ViewController.m in Sources */,
+				D07191A71F1ABA910018F12B /* SecondTableViewController.m in Sources */,
+				D07191A21F1A9BE40018F12B /* MapiViewController.m in Sources */,
 				D09E70631F122D6A00B9EA5E /* AppDelegate.m in Sources */,
+				D07191A51F1AAB7F0018F12B /* MapPin.m in Sources */,
 				D09E70601F122D6A00B9EA5E /* main.m in Sources */,
+				D09E70931F122EB400B9EA5E /* RootTableViewController.m in Sources */,
+				D09E70961F122ED300B9EA5E /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +562,7 @@
 				D09E708A1F122D6A00B9EA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D09E708B1F122D6A00B9EA5E /* Build configuration list for PBXNativeTarget "AppiOS1.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +571,7 @@
 				D09E708D1F122D6A00B9EA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D09E708E1F122D6A00B9EA5E /* Build configuration list for PBXNativeTarget "AppiOS1.1UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +580,7 @@
 				D09E70901F122D6A00B9EA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
